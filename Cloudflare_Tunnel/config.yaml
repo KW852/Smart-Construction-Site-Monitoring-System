@@ -1,0 +1,7 @@
+tunnel: flask-tunnel
+credentials-file: Tunnel.json
+
+ingress:
+  - hostname: xxxxxxxxxxx
+    service: http://localhost:xxxx
+  - service: http_status:404
